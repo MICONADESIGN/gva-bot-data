@@ -1,0 +1,1556 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-04-24T07:46:37Z",
+  "curso": "2025-2026",
+  "cursosAcceptats": [
+    "2023-2024",
+    "2024-2025",
+    "2025-2026"
+  ],
+  "documents": [
+    {
+      "filename": "260424_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260424_pue_prov.pdf",
+      "publishedDate": "2026-04-24T00:00:00Z",
+      "sizeBytes": 77634,
+      "sha256": "a3cf6ca00c61f725fbc815262a1a6ccc1284ba66c1fc9491528e67076b0f8058",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260424_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260424_par.pdf",
+      "publishedDate": "2026-04-24T00:00:00Z",
+      "sizeBytes": 1207866,
+      "sha256": "453e6776d3449b038ecf489c11fd7664334696c2c4ab7fc05d35417e6eef1bce",
+      "tipus": "par"
+    },
+    {
+      "filename": "260424_pue_def.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260424_pue_def.pdf",
+      "publishedDate": "2026-04-24T00:00:00Z",
+      "sizeBytes": 77945,
+      "sha256": "8624f023e0f2698e9fcf9961b05e27828613d69d57ed65029428cd0aae70234d",
+      "tipus": "pue_def"
+    },
+    {
+      "filename": "260423_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260423_lis_mae.pdf",
+      "publishedDate": "2026-04-23T00:00:00Z",
+      "sizeBytes": 1619863,
+      "sha256": "61a39419590c56b7a8740184e98cd8f5bdce7b13ef0bb521e8b0bd5840a076cc",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260423_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260423_lis_sec.pdf",
+      "publishedDate": "2026-04-23T00:00:00Z",
+      "sizeBytes": 3115783,
+      "sha256": "088fc88bd795c74df1b436783a0e9da82c20c20b90a0f2fdae8c5ab5c4a1ff34",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260423_pue_def.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260423_pue_def.pdf",
+      "publishedDate": "2026-04-23T00:00:00Z",
+      "sizeBytes": 243913,
+      "sha256": "1395813b1bcb249ac5cfc36e39f15ed150b5c8c6cd058ce1eb6b312047f9a45f",
+      "tipus": "pue_def"
+    },
+    {
+      "filename": "260423_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260423_pue_prov.pdf",
+      "publishedDate": "2026-04-23T00:00:00Z",
+      "sizeBytes": 243727,
+      "sha256": "fd62e695bbfad4486623c2685fc22e4c695378d28ef784b4d3ca36b41bdeb50c",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260421_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergiomendozaibiza/opomaster-gva-data/releases/download/2025-2026/260421_lis_mae.pdf",
+      "publishedDate": "2026-04-21T00:00:00Z",
+      "sizeBytes": 1823441,
+      "sha256": null,
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260421_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergiomendozaibiza/opomaster-gva-data/releases/download/2025-2026/260421_lis_sec.pdf",
+      "publishedDate": "2026-04-21T00:00:00Z",
+      "sizeBytes": 3568524,
+      "sha256": null,
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260421_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergiomendozaibiza/opomaster-gva-data/releases/download/2025-2026/260421_pue_prov.pdf",
+      "publishedDate": "2026-04-21T00:00:00Z",
+      "sizeBytes": 489213,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260417_par.pdf",
+      "downloadURL": "https://github.com/sergiomendozaibiza/opomaster-gva-data/releases/download/2025-2026/260417_par.pdf",
+      "publishedDate": "2026-04-17T00:00:00Z",
+      "sizeBytes": 712334,
+      "sha256": null,
+      "tipus": "par"
+    },
+    {
+      "filename": "260417_pue_def.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260417_pue_def.pdf",
+      "publishedDate": "2026-04-17T00:00:00Z",
+      "sizeBytes": 77856,
+      "sha256": "e675058d7aa0d06ed44ed21cf8ada276f122e5fae4b797c1b5e8495e98b2321a",
+      "tipus": "pue_def"
+    },
+    {
+      "filename": "260417_pue_par.pdf",
+      "downloadURL": "https://github.com/sergiomendozaibiza/opomaster-gva-data/releases/download/2025-2026/260417_pue_par.pdf",
+      "publishedDate": "2026-04-17T00:00:00Z",
+      "sizeBytes": 245112,
+      "sha256": null,
+      "tipus": "pue_par"
+    },
+    {
+      "filename": "260417_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260417_pue_prov.pdf",
+      "publishedDate": "2026-04-17T00:00:00Z",
+      "sizeBytes": 77530,
+      "sha256": "582d4771f7ebff501b4cc1b5d7392d53cccf41cff1afc4d9e507ef56f4d2b702",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260416_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260416_lis_mae.pdf",
+      "publishedDate": "2026-04-16T00:00:00Z",
+      "sizeBytes": 1578718,
+      "sha256": "cb07293098473604c11cd94082ab75a72fd89db2fc6127f1b19c4067aa6c893a",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260416_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260416_lis_sec.pdf",
+      "publishedDate": "2026-04-16T00:00:00Z",
+      "sizeBytes": 2967228,
+      "sha256": "39b7763bc3d2a39106944fe1ff29a84d5a8c235091301880f0d8bda583f0589c",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260416_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260416_pue_prov.pdf",
+      "publishedDate": "2026-04-16T00:00:00Z",
+      "sizeBytes": 328831,
+      "sha256": "200125894fe52d3f23d982c19a941634165c13aa827286dd6138c9c25d324b83",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260324_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260324_lis_mae.pdf",
+      "publishedDate": "2026-03-24T00:00:00Z",
+      "sizeBytes": 1374404,
+      "sha256": "1fcddde8fe96a28494b3d948e122605f93c740e355d123680633ceedcdafc06d",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260324_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260324_lis_sec.pdf",
+      "publishedDate": "2026-03-24T00:00:00Z",
+      "sizeBytes": 2692581,
+      "sha256": "8f02377ddbfa2f4076d9ff5f3d87e3f16d94e6c4f5334df87fcce86a84dc2c63",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260324_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260324_pue_prov.pdf",
+      "publishedDate": "2026-03-24T00:00:00Z",
+      "sizeBytes": 211980,
+      "sha256": "f341c191e6e4af829a37dffee1894c5b754f68261ab604b2d50eadace1629f50",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260317_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260317_lis_mae.pdf",
+      "publishedDate": "2026-03-17T00:00:00Z",
+      "sizeBytes": 1344025,
+      "sha256": "6e594172fb8e50ffc5c73e4b36ffda9bbfd41360e1246bf3e8ac3fb21fab6f65",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260317_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260317_lis_sec.pdf",
+      "publishedDate": "2026-03-17T00:00:00Z",
+      "sizeBytes": 2226740,
+      "sha256": "4e77f354a74b244b51eca9648d12a60c80dc3544a351439344384110198d38bc",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260317_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260317_pue_prov.pdf",
+      "publishedDate": "2026-03-17T00:00:00Z",
+      "sizeBytes": 180678,
+      "sha256": "d395dc7467ea93ed5006e97c9b6f4075d1cc6190480caecf67c261d86395d0cb",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260312_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260312_lis_mae.pdf",
+      "publishedDate": "2026-03-12T00:00:00Z",
+      "sizeBytes": 1340731,
+      "sha256": "d96883efa1b0fd0ac0451afd6ea31184856a57738009425cbef6200ed8a6411f",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260312_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260312_lis_sec.pdf",
+      "publishedDate": "2026-03-12T00:00:00Z",
+      "sizeBytes": 1833317,
+      "sha256": "311a1b37cf60a6492782e4d561c4d290aee0000271dd4766d116598ed6a40679",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260312_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260312_pue_prov.pdf",
+      "publishedDate": "2026-03-12T00:00:00Z",
+      "sizeBytes": 150988,
+      "sha256": "71ad1da1ea9140892036eabc1df9d60b100bccc3c57d23ddedea2f212fa006cb",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260310_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260310_lis_mae.pdf",
+      "publishedDate": "2026-03-10T00:00:00Z",
+      "sizeBytes": 1356982,
+      "sha256": "268d6e96d0870a05277a0fdc294f15636e2cb2e84412f10faee1b1087695e283",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260310_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260310_lis_sec.pdf",
+      "publishedDate": "2026-03-10T00:00:00Z",
+      "sizeBytes": 2330926,
+      "sha256": "17beda5783491ae5a8477dcb4e89f18cdb8feff775abe0c793d6413e780b81c3",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260310_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260310_pue_prov.pdf",
+      "publishedDate": "2026-03-10T00:00:00Z",
+      "sizeBytes": 187197,
+      "sha256": "2bcd2ec7bd2b88689c8a6760a10dc28830c0436d0124929c5558fec3746767d0",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260306_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260306_par.pdf",
+      "publishedDate": "2026-03-06T00:00:00Z",
+      "sizeBytes": 1927612,
+      "sha256": "e524d61105ae2170b18b1607569df20f7c2f03d2484865538984755b85236f37",
+      "tipus": "par"
+    },
+    {
+      "filename": "260306_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260306_pue_prov.pdf",
+      "publishedDate": "2026-03-06T00:00:00Z",
+      "sizeBytes": 81165,
+      "sha256": "bec67fce9dac0577cd8d4e53a38a03cec43ed159fe3de25d008eb84283d7d3fa",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260305_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260305_lis_mae.pdf",
+      "publishedDate": "2026-03-05T00:00:00Z",
+      "sizeBytes": 1353503,
+      "sha256": "a326d810c1fd67cfd77d4df99c759eb34a70c09bccf6612e7ecf84748b78df42",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260305_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260305_lis_sec.pdf",
+      "publishedDate": "2026-03-05T00:00:00Z",
+      "sizeBytes": 2677563,
+      "sha256": "03033b9683079cc2baab74aa866b1464f1e359e13ea2d1d6f7cf7f499e92ee71",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260305_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260305_pue_prov.pdf",
+      "publishedDate": "2026-03-05T00:00:00Z",
+      "sizeBytes": 500859,
+      "sha256": "73f14e0d577ff3a06ac533dca0fac0d8ff2f07f178178192979cc5791afbafe8",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260303_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260303_lis_mae.pdf",
+      "publishedDate": "2026-03-03T00:00:00Z",
+      "sizeBytes": 1358441,
+      "sha256": "c091d5fbb74d3f17896250e45850578bd31e40b55b108f9e88cf8bb2e17cf037",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260303_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260303_lis_sec.pdf",
+      "publishedDate": "2026-03-03T00:00:00Z",
+      "sizeBytes": 2586570,
+      "sha256": "9653fb86a0931698fd02bb647f5d32df5cae7e442cf6cf0ec16dd19173d23e01",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260303_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260303_pue_prov.pdf",
+      "publishedDate": "2026-03-03T00:00:00Z",
+      "sizeBytes": 496778,
+      "sha256": "9d552ed29fb28e8d62c356459c60e8cfb499c203b65986276cdf4a23130e36af",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260227_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260227_par.pdf",
+      "publishedDate": "2026-02-27T00:00:00Z",
+      "sizeBytes": 3893089,
+      "sha256": "1e50d6f500d43dde02dc9a38d1f79d637417f799e6cd18d5802bee443b1f8cfe",
+      "tipus": "par"
+    },
+    {
+      "filename": "260227_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260227_pue_prov.pdf",
+      "publishedDate": "2026-02-27T00:00:00Z",
+      "sizeBytes": 388473,
+      "sha256": "d665b62169c963c6b53b4773372cca6df7ca9b37dc6a3d1b063311ae5cea815a",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260226_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260226_lis_mae.pdf",
+      "publishedDate": "2026-02-26T00:00:00Z",
+      "sizeBytes": 1680575,
+      "sha256": "5bc7036e05aef9a2558f2005f5e63ef1c6e56ed021a2e1a8190b7590776c92bd",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260226_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260226_lis_sec.pdf",
+      "publishedDate": "2026-02-26T00:00:00Z",
+      "sizeBytes": 3033450,
+      "sha256": "d8f2201de303599c74164b61ce62e3d0a012df492e5cfad74835f3cc508b03c3",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260226_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260226_pue_prov.pdf",
+      "publishedDate": "2026-02-26T00:00:00Z",
+      "sizeBytes": 513000,
+      "sha256": "8dac2c0b584d085f8c3b3cb3531e8be3fa9c512579d063844e01eddbfc54ad48",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260224_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260224_lis_mae.pdf",
+      "publishedDate": "2026-02-24T00:00:00Z",
+      "sizeBytes": 1697930,
+      "sha256": "09441df285d3c861091f71c804b461a41daaced3ffc3b0a0641f69d224e516a1",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260224_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260224_lis_sec.pdf",
+      "publishedDate": "2026-02-24T00:00:00Z",
+      "sizeBytes": 2937252,
+      "sha256": "d490319f23b25b953fcfde90713a61944750c99579eaae87a7bc1933a88435f8",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260224_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260224_pue_prov.pdf",
+      "publishedDate": "2026-02-24T00:00:00Z",
+      "sizeBytes": 202190,
+      "sha256": "b63bbc82d7480b6fcd8a37c7e02c4226f028a4e5538b777478f436e45d687e8b",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260220_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260220_par.pdf",
+      "publishedDate": "2026-02-20T00:00:00Z",
+      "sizeBytes": 2989060,
+      "sha256": "eb468e87b5e40ff6f91bb4d8deeb51c0d52f5173ae8ddbc2c032c69cb8225e24",
+      "tipus": "par"
+    },
+    {
+      "filename": "260220_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260220_pue_prov.pdf",
+      "publishedDate": "2026-02-20T00:00:00Z",
+      "sizeBytes": 92597,
+      "sha256": "55f6afcb684378646c6ba3a865c44e3a97c639ccd54c615482c135ffa27904f8",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260219_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260219_lis_mae.pdf",
+      "publishedDate": "2026-02-19T00:00:00Z",
+      "sizeBytes": 1386502,
+      "sha256": "8c3533a71ae137afe117294fba52cb4be3c38665c7d9854ccb6f663f68349d0c",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260219_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260219_lis_sec.pdf",
+      "publishedDate": "2026-02-19T00:00:00Z",
+      "sizeBytes": 2703008,
+      "sha256": "46aef4bd16e9b8e8766be4adfab5182b2f8b30c635b9b5b8aa2b6ddc37d91cde",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260219_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260219_pue_prov.pdf",
+      "publishedDate": "2026-02-19T00:00:00Z",
+      "sizeBytes": 521480,
+      "sha256": "4f42be3a145a470f7596f4b6695c5d4a77ba942dd3ff6e474dea55c4b2ec19b5",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260217_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260217_lis_mae.pdf",
+      "publishedDate": "2026-02-17T00:00:00Z",
+      "sizeBytes": 1421549,
+      "sha256": "058c319d8d0d1efb6559f3b34f8635dcc6fade11288a9e83d3edbf184d930436",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260217_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260217_lis_sec.pdf",
+      "publishedDate": "2026-02-17T00:00:00Z",
+      "sizeBytes": 2754250,
+      "sha256": "6b115cc48c77e0cc2bfa933a67c5d1c9498a8f11ac595d69ae3031663a6635bd",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260217_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260217_pue_prov.pdf",
+      "publishedDate": "2026-02-17T00:00:00Z",
+      "sizeBytes": 244342,
+      "sha256": "b4996ab99f28f05f06140948824be072356602a75cc913460ccc69f1761b25a1",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260213_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260213_par.pdf",
+      "publishedDate": "2026-02-13T00:00:00Z",
+      "sizeBytes": 3217001,
+      "sha256": "63c33f7d70a57c6da7c598968f677ddb0a2998c2769703b628aca37a99060fb7",
+      "tipus": "par"
+    },
+    {
+      "filename": "260213_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260213_pue_prov.pdf",
+      "publishedDate": "2026-02-13T00:00:00Z",
+      "sizeBytes": 92573,
+      "sha256": "33207743d503fbea5241b4f1749f24500f03639f3bd649037cc8db8b7a53b035",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260212_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260212_lis_mae.pdf",
+      "publishedDate": "2026-02-12T00:00:00Z",
+      "sizeBytes": 1428069,
+      "sha256": "bcf16454a4980cc20c6bd8924cc1a5d9de45fd9bdc0aa419573c12dc36d2127f",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260212_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260212_lis_sec.pdf",
+      "publishedDate": "2026-02-12T00:00:00Z",
+      "sizeBytes": 2438625,
+      "sha256": "7855127d074a35c4173b73b89bd499d520190d66863ed4da44fdf9945c1338d3",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260212_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260212_pue_prov.pdf",
+      "publishedDate": "2026-02-12T00:00:00Z",
+      "sizeBytes": 265636,
+      "sha256": "330902a81703b8812e13c8bbbf34e5b36d5a97f2165daadaa86e50a30454c138",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260210_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260210_lis_mae.pdf",
+      "publishedDate": "2026-02-10T00:00:00Z",
+      "sizeBytes": 1437122,
+      "sha256": "7de4af8574e4794eee327cb8cc548e92b7a6a4d3b003824ff3ae245b1aad27b0",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260210_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260210_lis_sec.pdf",
+      "publishedDate": "2026-02-10T00:00:00Z",
+      "sizeBytes": 2588001,
+      "sha256": "298cd2448c42e3447a14e544478f30d8e901dad1d52f2cda17a45bf6229f139c",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260210_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260210_pue_prov.pdf",
+      "publishedDate": "2026-02-10T00:00:00Z",
+      "sizeBytes": 217910,
+      "sha256": "e89ba26e843cbeea58bd4746cbc6d0adb3eb5eb3cdc10bdf021f406abea94470",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260206_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260206_par.pdf",
+      "publishedDate": "2026-02-06T00:00:00Z",
+      "sizeBytes": 4058186,
+      "sha256": "5197de6fdd52522c5d28abc2e75fdedf9d7503e9ef05531e53cc6ef758ce7d10",
+      "tipus": "par"
+    },
+    {
+      "filename": "260206_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260206_pue_prov.pdf",
+      "publishedDate": "2026-02-06T00:00:00Z",
+      "sizeBytes": 98269,
+      "sha256": "771600ffb153f2e50b822634aab26c914c87f53154ae18c01086db4233227da5",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260205_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260205_lis_mae.pdf",
+      "publishedDate": "2026-02-05T00:00:00Z",
+      "sizeBytes": 1453632,
+      "sha256": "e14976c8db561099d9b107f083141dd44f14b1f84ac5a94651f18e8f0b4b08c9",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260205_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260205_lis_sec.pdf",
+      "publishedDate": "2026-02-05T00:00:00Z",
+      "sizeBytes": 2599364,
+      "sha256": "252a5df9b7ee744d85691e5843fb61ee0c31025412b11f2333999560886a93bf",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260205_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260205_pue_prov.pdf",
+      "publishedDate": "2026-02-05T00:00:00Z",
+      "sizeBytes": 249580,
+      "sha256": "a994cc8ef93fdab00fff131e91a23ad59a6902fef5721fa7b1e3b3ffcc751648",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260203_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260203_lis_mae.pdf",
+      "publishedDate": "2026-02-03T00:00:00Z",
+      "sizeBytes": 1484660,
+      "sha256": "8428d46dd36eb0bf917b7b172245521aca775876ff1bb75bc02a0f8e00230179",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260203_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260203_lis_sec.pdf",
+      "publishedDate": "2026-02-03T00:00:00Z",
+      "sizeBytes": 2740026,
+      "sha256": "8ac9c601a1b163b2fe4062682faa10982dda57d448ac97d22d808983dfa3bc61",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260203_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260203_pue_prov.pdf",
+      "publishedDate": "2026-02-03T00:00:00Z",
+      "sizeBytes": 244823,
+      "sha256": "f44a367048574ca17122d05196f547d4a63da3e9091dcd90b153bdae939ccb02",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260130_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260130_par.pdf",
+      "publishedDate": "2026-01-30T00:00:00Z",
+      "sizeBytes": 7899243,
+      "sha256": "81d1a02b1119cf90bd062178b3d442da10c5649b62ea9eb63f319c5949108ef2",
+      "tipus": "par"
+    },
+    {
+      "filename": "260130_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260130_pue_prov.pdf",
+      "publishedDate": "2026-01-30T00:00:00Z",
+      "sizeBytes": 127889,
+      "sha256": "b06f89c6aeed1400396576ac455bbdc64be902ebfa6f12b66323fe3059e9ef9b",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260129_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260129_lis_mae.pdf",
+      "publishedDate": "2026-01-29T00:00:00Z",
+      "sizeBytes": 1502979,
+      "sha256": "0e7eaa56eabf239a40eccacc8f319189413f534d6f6682185ba5623da46ee9c2",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260129_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260129_lis_sec.pdf",
+      "publishedDate": "2026-01-29T00:00:00Z",
+      "sizeBytes": 2141978,
+      "sha256": "b01b7caa59567c96dd5340a8c5e37246549f3019a08c06ac1b998c0d3f4b8480",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260129_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260129_pue_prov.pdf",
+      "publishedDate": "2026-01-29T00:00:00Z",
+      "sizeBytes": 297560,
+      "sha256": "84dd91a7dcf6c25c30aa17ae269884255d0c8c4eb05b00299ebcb5337b9e62f8",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260127_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260127_lis_mae.pdf",
+      "publishedDate": "2026-01-27T00:00:00Z",
+      "sizeBytes": 1539281,
+      "sha256": "f87b24ca368ff81099a700462d1952185dfa0a409f9b1b3b7369f34c14b3ac81",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260127_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260127_lis_sec.pdf",
+      "publishedDate": "2026-01-27T00:00:00Z",
+      "sizeBytes": 2109118,
+      "sha256": "c91b92393da7c6ae9406cea0034f6897511575ed9a3a20a03e2e64aaae950731",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260127_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260127_pue_prov.pdf",
+      "publishedDate": "2026-01-27T00:00:00Z",
+      "sizeBytes": 278344,
+      "sha256": "325e9163aa23fafee6096a7ad2a4df5594305fefb92e70ff20c4b4280d8ec412",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260120_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260120_lis_mae.pdf",
+      "publishedDate": "2026-01-20T00:00:00Z",
+      "sizeBytes": 1545006,
+      "sha256": "6cee4e93d13c138a5b52bd595525243616d842142c0d4cabbe8bc4271ba2fa94",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260120_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260120_lis_sec.pdf",
+      "publishedDate": "2026-01-20T00:00:00Z",
+      "sizeBytes": 2163088,
+      "sha256": "ebdd0f8f15fb8d632b06950df624d92c85d203ca58527fb5878e204b914fe4a0",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260120_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260120_pue_prov.pdf",
+      "publishedDate": "2026-01-20T00:00:00Z",
+      "sizeBytes": 268855,
+      "sha256": "0582d2140f1dd6959f7305531192817b77f02c9368f7e317074e13ae4cec2c50",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260116_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260116_par.pdf",
+      "publishedDate": "2026-01-16T00:00:00Z",
+      "sizeBytes": 6279648,
+      "sha256": "ec249a7fc8b27a3fded617e84a4f5a73e8fe88e2471d70b8e1a8cb70fdab66b3",
+      "tipus": "par"
+    },
+    {
+      "filename": "260116_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260116_pue_prov.pdf",
+      "publishedDate": "2026-01-16T00:00:00Z",
+      "sizeBytes": 155121,
+      "sha256": "095c8556c0e8151d81a8e9b45864044753f95bc2612adf1da497a6ebed1c0b2b",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260115_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260115_lis_mae.pdf",
+      "publishedDate": "2026-01-15T00:00:00Z",
+      "sizeBytes": 1594372,
+      "sha256": "02026c96d7eacc89ff18e7101a7145fe8331784cce41dbf7fd371c4dbe5d4da2",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260115_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260115_lis_sec.pdf",
+      "publishedDate": "2026-01-15T00:00:00Z",
+      "sizeBytes": 2378720,
+      "sha256": "f8bb7ff60a995c72bf4c78dc14625d7093d541f5f9a77ffbf661afd9269928e5",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260115_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260115_pue_prov.pdf",
+      "publishedDate": "2026-01-15T00:00:00Z",
+      "sizeBytes": 338679,
+      "sha256": "56d1c44d0d8e77b55dbe2035f1ba8ff12fa743434da054796d3d52dee8ffde28",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260113_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260113_lis_mae.pdf",
+      "publishedDate": "2026-01-13T00:00:00Z",
+      "sizeBytes": 1654838,
+      "sha256": "f6e095bc4bfc1611b51641e37ef4d149c948274e5eaa052845dc7b75fd36c5e9",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260113_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260113_lis_sec.pdf",
+      "publishedDate": "2026-01-13T00:00:00Z",
+      "sizeBytes": 2334315,
+      "sha256": "4bd59e2decebffadb794788220c81991c8be9eb636db3ff5dc9fe748deb404b7",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260113_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260113_pue_prov.pdf",
+      "publishedDate": "2026-01-13T00:00:00Z",
+      "sizeBytes": 353970,
+      "sha256": "95b1fb182d883f6c53be0a613d9682220b414266cd5db3cc101d182e918ce4c0",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "260108_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260108_lis_mae.pdf",
+      "publishedDate": "2026-01-08T00:00:00Z",
+      "sizeBytes": 1727474,
+      "sha256": "abcd972674beb76a9a79586df546eeb7ca4c9cf1de916c3e109a1a3d47fa79f3",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "260108_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260108_lis_sec.pdf",
+      "publishedDate": "2026-01-08T00:00:00Z",
+      "sizeBytes": 2539449,
+      "sha256": "dd6e0398779140809b7efda8902cf7e11071055597c1ad723f3d61b253bf4be8",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "260108_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/260108_pue_prov.pdf",
+      "publishedDate": "2026-01-08T00:00:00Z",
+      "sizeBytes": 400200,
+      "sha256": "907ac8d299557bac65db55fd55acc1adc0d467704cfae01428f05c06d5f77cf2",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251218_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251218_lis_mae.pdf",
+      "publishedDate": "2025-12-18T00:00:00Z",
+      "sizeBytes": 1597686,
+      "sha256": "f12267d0c589afdb61d74401f3c94b8bb989312e91c59a71c768728fdaa95f79",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251218_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251218_lis_sec.pdf",
+      "publishedDate": "2025-12-18T00:00:00Z",
+      "sizeBytes": 2086191,
+      "sha256": "5db0c80dca627451fd4b11dc968dff9701e94c6a93d112b0b49cb3a97b0f885d",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251218_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251218_pue_prov.pdf",
+      "publishedDate": "2025-12-18T00:00:00Z",
+      "sizeBytes": 211076,
+      "sha256": "865ae7d8d9769c72b80266c4a31bfe936e8f77045d712cdca402518ec05a7fc5",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251204_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251204_lis_mae.pdf",
+      "publishedDate": "2025-12-04T00:00:00Z",
+      "sizeBytes": 1870838,
+      "sha256": "a4f155c6b887006ed160a45cec69cca8727cb386d555b9fefb1b13178699a85d",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251204_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251204_lis_sec.pdf",
+      "publishedDate": "2025-12-04T00:00:00Z",
+      "sizeBytes": 2114389,
+      "sha256": "26c2ef73129a803f09f61f6c8186f8bdb801df9f4a718725654b9c538090ef4c",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251204_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251204_pue_prov.pdf",
+      "publishedDate": "2025-12-04T00:00:00Z",
+      "sizeBytes": 248536,
+      "sha256": "247ad6590f2e3ddbb85d1dd5e898b9405e9c570a22b8bc1dd48ffd63676d8275",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251202_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251202_lis_mae.pdf",
+      "publishedDate": "2025-12-02T00:00:00Z",
+      "sizeBytes": 1535510,
+      "sha256": "979b7b661ad71d6464a4f12da09a4736bee1e925dd4bed36f55f7a254fe2ed6c",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251202_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251202_lis_sec.pdf",
+      "publishedDate": "2025-12-02T00:00:00Z",
+      "sizeBytes": 2174344,
+      "sha256": "f214991488c5fbd9a5a81576fae07efca7aef0cf7e90b75dddf8dc452b962dc6",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251202_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251202_pue_prov.pdf",
+      "publishedDate": "2025-12-02T00:00:00Z",
+      "sizeBytes": 263141,
+      "sha256": "4c8c920899f09654c67ef40e419e0382b29e2ce235d7979d841a9876954d6e42",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251128_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251128_par.pdf",
+      "publishedDate": "2025-11-28T00:00:00Z",
+      "sizeBytes": 3413865,
+      "sha256": "73444e9c864d36ccd6080fba3ef113c71d51c647e828cf21ecf4f8f6d8a00aba",
+      "tipus": "par"
+    },
+    {
+      "filename": "251128_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251128_pue_prov.pdf",
+      "publishedDate": "2025-11-28T00:00:00Z",
+      "sizeBytes": 90334,
+      "sha256": "75437b5aa3f3657a7458beed2cb3317bd8c40c38a324392fe4aa3d51398e3e0d",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251127_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251127_lis_mae.pdf",
+      "publishedDate": "2025-11-27T00:00:00Z",
+      "sizeBytes": 1534242,
+      "sha256": "b99c36bf251dc49599c827de2d547cce7bd1447f04f75c7486d5d052748ebbc5",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251127_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251127_lis_sec.pdf",
+      "publishedDate": "2025-11-27T00:00:00Z",
+      "sizeBytes": 1934135,
+      "sha256": "f5401637fff4897c69068b40dc716507866010e3295f4791dd748a93d7899fce",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251127_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251127_pue_prov.pdf",
+      "publishedDate": "2025-11-27T00:00:00Z",
+      "sizeBytes": 219369,
+      "sha256": "8f4f4868ec5f066c71866adde5d2a6b26f357a61c7fcd77ae52703441cebba39",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251125_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251125_lis_mae.pdf",
+      "publishedDate": "2025-11-25T00:00:00Z",
+      "sizeBytes": 1562407,
+      "sha256": "4d8e8086421011392cf7b6f308762abb17d7de978097a19445b32f72009c383f",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251125_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251125_lis_sec.pdf",
+      "publishedDate": "2025-11-25T00:00:00Z",
+      "sizeBytes": 1998187,
+      "sha256": "8dc8d4ca8ccb76201e92075b02d814f502806580b277ee576a1b28221caf8e84",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251125_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251125_pue_prov.pdf",
+      "publishedDate": "2025-11-25T00:00:00Z",
+      "sizeBytes": 196381,
+      "sha256": "39b17acf621fcbc94a4ab2c8b28a2682a1898f605d96ea437121e30340c6a6cd",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251121_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251121_par.pdf",
+      "publishedDate": "2025-11-21T00:00:00Z",
+      "sizeBytes": 3991709,
+      "sha256": "fd2559e301f41ab5455c81e687b368e95010305f495ace4b2b02a993664bf969",
+      "tipus": "par"
+    },
+    {
+      "filename": "251121_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251121_pue_prov.pdf",
+      "publishedDate": "2025-11-21T00:00:00Z",
+      "sizeBytes": 86514,
+      "sha256": "52276a1e7c26818ee3b83d0321a7c9a53e12e822f5342c6062201976bf64d819",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251120_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251120_lis_mae.pdf",
+      "publishedDate": "2025-11-20T00:00:00Z",
+      "sizeBytes": 1583136,
+      "sha256": "cde63c68fbdcdbf843277c1ce4910220dc3e17f106b0bb53263183ea37812703",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251120_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251120_lis_sec.pdf",
+      "publishedDate": "2025-11-20T00:00:00Z",
+      "sizeBytes": 2058563,
+      "sha256": "88e07a85b9ca58c256d9fe03ec311dd95c6b3aec18a7b5f3850d7bb8adb1b9f2",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251120_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251120_pue_prov.pdf",
+      "publishedDate": "2025-11-20T00:00:00Z",
+      "sizeBytes": 252640,
+      "sha256": "8d3f45d33aeecd8e3cfe7db9b5f99b1bb06f71b73c534877bc987000a95f0903",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251118_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251118_lis_mae.pdf",
+      "publishedDate": "2025-11-18T00:00:00Z",
+      "sizeBytes": 1594082,
+      "sha256": "7802f6615ddd98d2400fc07b3f9fa5a827a9221876d13d2003c460fca8c31a7b",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251118_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251118_lis_sec.pdf",
+      "publishedDate": "2025-11-18T00:00:00Z",
+      "sizeBytes": 1961445,
+      "sha256": "294106ff8b62be4b8be105c7945b25d371116cb17aca45a3909e7b6f30a5354e",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251118_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251118_pue_prov.pdf",
+      "publishedDate": "2025-11-18T00:00:00Z",
+      "sizeBytes": 207600,
+      "sha256": "7ca5d63041717d865d20cbef8fac8ec49e34de627c719874af0970efd3559fa1",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251114_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251114_par.pdf",
+      "publishedDate": "2025-11-14T00:00:00Z",
+      "sizeBytes": 3599526,
+      "sha256": "6df784a497f1fe48c036f747049bfde2b7bc94b3fd83df4364aee9c9b10a2e2f",
+      "tipus": "par"
+    },
+    {
+      "filename": "251114_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251114_pue_prov.pdf",
+      "publishedDate": "2025-11-14T00:00:00Z",
+      "sizeBytes": 90804,
+      "sha256": "c5db434c3f0585d5e3f36b2edd1dc719e1e7524eb7e4d01038af65547f5faa0f",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251113_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251113_lis_mae.pdf",
+      "publishedDate": "2025-11-13T00:00:00Z",
+      "sizeBytes": 1605419,
+      "sha256": "172b0612248923e52f3790ad69da278b41c99e84803679e0fdd9b5cd97200bfd",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251113_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251113_lis_sec.pdf",
+      "publishedDate": "2025-11-13T00:00:00Z",
+      "sizeBytes": 2047658,
+      "sha256": "c09a5330a9e151733042132f28cfefcd63eeda0bd8d40afc45459c512ab376d0",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251113_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251113_pue_prov.pdf",
+      "publishedDate": "2025-11-13T00:00:00Z",
+      "sizeBytes": 226782,
+      "sha256": "39f31b5e258776c0cc20d7322a496a230130b80ba774e5d9ed61c97d646842da",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251111_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251111_lis_mae.pdf",
+      "publishedDate": "2025-11-11T00:00:00Z",
+      "sizeBytes": 1651040,
+      "sha256": "0315af1fc71db25896206002d94c2f95db756f6ff03dde2c389893c068352d43",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251111_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251111_lis_sec.pdf",
+      "publishedDate": "2025-11-11T00:00:00Z",
+      "sizeBytes": 2028269,
+      "sha256": "b482c09ce3067dd564c5362c292ff2d3dc517d099d953b8ee58548d3e87aafd3",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251111_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251111_pue_prov.pdf",
+      "publishedDate": "2025-11-11T00:00:00Z",
+      "sizeBytes": 232656,
+      "sha256": "9a70d8347a046e4a2559098fc1f3298cd086a4dcd9c6e6dfa07b8bd23638ecd3",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251107_pue_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251107_pue_par.pdf",
+      "publishedDate": "2025-11-07T00:00:00Z",
+      "sizeBytes": 4845809,
+      "sha256": "6a66361c3203c94bf33591d87954131a01c9eaab31fbc98618db22b5827e267e",
+      "tipus": "pue_par"
+    },
+    {
+      "filename": "251107_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251107_pue_prov.pdf",
+      "publishedDate": "2025-11-07T00:00:00Z",
+      "sizeBytes": 96064,
+      "sha256": "52dc1b883d57ed0ab35f08c95196a135dade7810ab3469cad25d49e88c75b9a1",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251106_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251106_lis_mae.pdf",
+      "publishedDate": "2025-11-06T00:00:00Z",
+      "sizeBytes": 1668118,
+      "sha256": "9625ae0bf20ba9ee767c8f00b0139393f0b89a851e07c709365114420d9de44b",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251106_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251106_lis_sec.pdf",
+      "publishedDate": "2025-11-06T00:00:00Z",
+      "sizeBytes": 2188525,
+      "sha256": "3fce22a248c8905416c407b0c9a5c581cef9b67a2f24c8377a1bc1e2d98fd2ea",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251106_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251106_pue_prov.pdf",
+      "publishedDate": "2025-11-06T00:00:00Z",
+      "sizeBytes": 267942,
+      "sha256": "f5c6833c2045822d3bc14fb18b1a2ac009a2105136e28a5a8ef08d670a10a007",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251104_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251104_lis_mae.pdf",
+      "publishedDate": "2025-11-04T00:00:00Z",
+      "sizeBytes": 1783128,
+      "sha256": "bab3a0a9c0e63d6698a7ad0e6879c072207a4782c060fefa35f57f3a9ef9c489",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251104_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251104_lis_sec.pdf",
+      "publishedDate": "2025-11-04T00:00:00Z",
+      "sizeBytes": 2083941,
+      "sha256": "e442ba869270aa4bfd64d333b0590a6b4d146661276f96f2f18fde838d2e8b7c",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251104_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251104_pue_prov.pdf",
+      "publishedDate": "2025-11-04T00:00:00Z",
+      "sizeBytes": 314125,
+      "sha256": "e39586988e5ead366e7e477f9887a267cd47490f00724a04891286e8ae34ef5e",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251031_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251031_par.pdf",
+      "publishedDate": "2025-10-31T00:00:00Z",
+      "sizeBytes": 1668278,
+      "sha256": "58762f1dc1ddadd8c2bef0acb3a9ffc7f7640c546ca193e2678138a0c877a2d4",
+      "tipus": "par"
+    },
+    {
+      "filename": "251031_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251031_pue_prov.pdf",
+      "publishedDate": "2025-10-31T00:00:00Z",
+      "sizeBytes": 72095,
+      "sha256": "04c638c8c1935ad1d15fccc7603083becebf066f5cb0895761943b1d47e37209",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251030_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251030_lis_mae.pdf",
+      "publishedDate": "2025-10-30T00:00:00Z",
+      "sizeBytes": 1726392,
+      "sha256": "e0790b1ee154599152cf1c370c8346fd9c285528bc7281545c6bd8b4369c565d",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251030_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251030_lis_sec.pdf",
+      "publishedDate": "2025-10-30T00:00:00Z",
+      "sizeBytes": 2013281,
+      "sha256": "c96cea95fed8114622471a3dca22a3e22ba8db79eee1eb6b38d2c4e856dac51c",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251030_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251030_pue_prov.pdf",
+      "publishedDate": "2025-10-30T00:00:00Z",
+      "sizeBytes": 216024,
+      "sha256": "a136b735cd6beb2fa1c932755199514c4f6073b29294191a1b502ee507e5260c",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251028_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251028_lis_mae.pdf",
+      "publishedDate": "2025-10-28T00:00:00Z",
+      "sizeBytes": 1749565,
+      "sha256": "0cc92a80c685af57581b9db6f1a40789b7b8f04897ed55ecd3ccf689c70556d5",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251028_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251028_lis_sec.pdf",
+      "publishedDate": "2025-10-28T00:00:00Z",
+      "sizeBytes": 2107781,
+      "sha256": "19d4b1006db683c0c86a966535eca141df20361b5e5b8ef86c35cc552db3ce31",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251028_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251028_pue_prov.pdf",
+      "publishedDate": "2025-10-28T00:00:00Z",
+      "sizeBytes": 215441,
+      "sha256": "fb815db11e4f3b6811a647f8bbaeebf4dfd2ac25f645bf00d28524f6aaa4cd58",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251024_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251024_par.pdf",
+      "publishedDate": "2025-10-24T00:00:00Z",
+      "sizeBytes": 2100160,
+      "sha256": "0923da8fa789d0636f2ee55adc81a93fc85d20ee6ee97fd72c5a58f376f367b1",
+      "tipus": "par"
+    },
+    {
+      "filename": "251024_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251024_pue_prov.pdf",
+      "publishedDate": "2025-10-24T00:00:00Z",
+      "sizeBytes": 78774,
+      "sha256": "36ee0170cbc90c1b0d9b8e45ba39158e37d06e0c596e9e43b521fcee7d7477b0",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251023_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251023_lis_mae.pdf",
+      "publishedDate": "2025-10-23T00:00:00Z",
+      "sizeBytes": 1765913,
+      "sha256": "f656bdbe494f1f7cebe490a7685dbc95934a70f91e39764530e3e1b44eddc5eb",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251023_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251023_lis_sec.pdf",
+      "publishedDate": "2025-10-23T00:00:00Z",
+      "sizeBytes": 2280432,
+      "sha256": "0189cb6f6cd31a69d74169fa0abbb32fffb9a9d652f63726f7517fb0bc0ddd6c",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251023_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251023_pue_prov.pdf",
+      "publishedDate": "2025-10-23T00:00:00Z",
+      "sizeBytes": 239029,
+      "sha256": "72ae95f353a46798b772f8d2f1d315afd28d5843611b8563e40004573961de4d",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251021_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251021_lis_mae.pdf",
+      "publishedDate": "2025-10-21T00:00:00Z",
+      "sizeBytes": 1819020,
+      "sha256": "e32d6a14edf46952508b29fdb400763f95995b39790d9a3c8c1b0bca174286a4",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251021_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251021_lis_sec.pdf",
+      "publishedDate": "2025-10-21T00:00:00Z",
+      "sizeBytes": 2296797,
+      "sha256": "804061d225556d72dfcf2a097e76f13a4a57e2e68157111a2b38f49ff703622b",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251021_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251021_pue_prov.pdf",
+      "publishedDate": "2025-10-21T00:00:00Z",
+      "sizeBytes": 255790,
+      "sha256": "7d03e650c174195a6553769a4a0489cedd7a9de9aadde9c4b6acf545ca9e5370",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251017_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251017_par.pdf",
+      "publishedDate": "2025-10-17T00:00:00Z",
+      "sizeBytes": 2497592,
+      "sha256": "32a1c4da4bbfe28880cd37799baf268f4402bd305fb73c7a394ab585902745dd",
+      "tipus": "par"
+    },
+    {
+      "filename": "251017_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251017_pue_prov.pdf",
+      "publishedDate": "2025-10-17T00:00:00Z",
+      "sizeBytes": 73475,
+      "sha256": "c5fa5d45dafae7e4b0ed4b33d4bf2357cc4f411cb4b6cf361c69e1624610549a",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251016_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251016_lis_mae.pdf",
+      "publishedDate": "2025-10-16T00:00:00Z",
+      "sizeBytes": 1856023,
+      "sha256": "9e588c977e04775e278a52771a877382b2de685f376f55eced65e4aac96225fc",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251016_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251016_lis_sec.pdf",
+      "publishedDate": "2025-10-16T00:00:00Z",
+      "sizeBytes": 2285777,
+      "sha256": "51af9bcc747355977b6c625aff0be3982f21f51e60fd52521db15d160ce2f779",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251016_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251016_pue_prov.pdf",
+      "publishedDate": "2025-10-16T00:00:00Z",
+      "sizeBytes": 275820,
+      "sha256": "ecd5e0c57dd1542fbfe8f11394fca31bde992f77ecea12cb9b22e67f07d6a04a",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251014_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251014_lis_mae.pdf",
+      "publishedDate": "2025-10-14T00:00:00Z",
+      "sizeBytes": 1926657,
+      "sha256": "26125548cb13e2b19095bfa6cae6469cca99a5e40425210daa10ebd0ae66a336",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251014_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251014_lis_sec.pdf",
+      "publishedDate": "2025-10-14T00:00:00Z",
+      "sizeBytes": 2374102,
+      "sha256": "008db68fddbe2f38dd015042c204d993cb7c04707e338f0717010113faa88d9d",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251014_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251014_pue_prov.pdf",
+      "publishedDate": "2025-10-14T00:00:00Z",
+      "sizeBytes": 308029,
+      "sha256": "df57f1f434ca14ad98f7a0cac79d29ce02a824ad1c3a09760f66f87bac9341a5",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251003_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251003_par.pdf",
+      "publishedDate": "2025-10-03T00:00:00Z",
+      "sizeBytes": 4120747,
+      "sha256": "4afca15c33722345ec898e94dba889bb6db02d3f6939f61800ae23b908696e06",
+      "tipus": "par"
+    },
+    {
+      "filename": "251003_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251003_pue_prov.pdf",
+      "publishedDate": "2025-10-03T00:00:00Z",
+      "sizeBytes": 103061,
+      "sha256": "a098c1bde2c45650c7d3232fb4c839728dfc9b31834a70e0450f4ab64d6b4100",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "251002_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251002_lis_mae.pdf",
+      "publishedDate": "2025-10-02T00:00:00Z",
+      "sizeBytes": 2079643,
+      "sha256": "e58c76c960594bd402486d0ecf66bcf5f02f60241a0b2abf2b2fcb2c83c168e4",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "251002_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251002_lis_sec.pdf",
+      "publishedDate": "2025-10-02T00:00:00Z",
+      "sizeBytes": 2843859,
+      "sha256": "eefaf690621239b690144849425945db829a81688b067d382266f35b591d7030",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "251002_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/251002_pue_prov.pdf",
+      "publishedDate": "2025-10-02T00:00:00Z",
+      "sizeBytes": 445180,
+      "sha256": "eadcc939503256ac8a714bd72e9278ddb4074c05bbaedee9b80361d84f987ee3",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250930_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250930_lis_mae.pdf",
+      "publishedDate": "2025-09-30T00:00:00Z",
+      "sizeBytes": 2097863,
+      "sha256": "9bb1db768fe6b3bbddbf2e35eb83d2eea1a1295e7e48b56d5e3debae8023574e",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250930_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250930_lis_sec.pdf",
+      "publishedDate": "2025-09-30T00:00:00Z",
+      "sizeBytes": 2684938,
+      "sha256": "e1c6d23aada8ec8cda3f87ba2cfa3b5b312a1761a84ccad2e24d8c8c3ffb63dc",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "250930_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250930_pue_prov.pdf",
+      "publishedDate": "2025-09-30T00:00:00Z",
+      "sizeBytes": 301878,
+      "sha256": "b69eedb3b8f878660c025e0c49bc9a28ac16ce27508f3a22ab8c7a645cd5c0ae",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250926_pue_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250926_pue_par.pdf",
+      "publishedDate": "2025-09-26T00:00:00Z",
+      "sizeBytes": 2433410,
+      "sha256": "0f632d0812249d6d8535f85d8fa974bc6ec215c904ae0a614b251435ddc3c38e",
+      "tipus": "pue_par"
+    },
+    {
+      "filename": "250926_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250926_pue_prov.pdf",
+      "publishedDate": "2025-09-26T00:00:00Z",
+      "sizeBytes": 83034,
+      "sha256": "29a3d98925b18e25cabbb89bbad89670ca8a26fe3f5a82f2bac85190475b0163",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250925_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250925_lis_mae.pdf",
+      "publishedDate": "2025-09-25T00:00:00Z",
+      "sizeBytes": 2116877,
+      "sha256": "b5368fb141fafc930e32583fc017d4e4c20958fdf3164a563571da08b9c34e11",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250925_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250925_lis_sec.pdf",
+      "publishedDate": "2025-09-25T00:00:00Z",
+      "sizeBytes": 2847985,
+      "sha256": "1212c442c241b5714dc1c2dbaac68ab19a469e0c6838878d9a7ea3b35614587d",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "250925_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250925_pue_prov.pdf",
+      "publishedDate": "2025-09-25T00:00:00Z",
+      "sizeBytes": 345841,
+      "sha256": "509b7ea1bad366c0d84d837267bb7d42fcd2a773057820288bf067b275975992",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250923_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250923_lis_mae.pdf",
+      "publishedDate": "2025-09-23T00:00:00Z",
+      "sizeBytes": 2166446,
+      "sha256": "8ad4cd66468e995c68f24e59da9fb66351186fb09b8dab3552b3a5b6c0e53f8b",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250923_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250923_lis_sec.pdf",
+      "publishedDate": "2025-09-23T00:00:00Z",
+      "sizeBytes": 2770560,
+      "sha256": "f3e09a34520082fc25f5f17fd54211eecd638f8eff301fc590cd7d5f5908cb0f",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "250923_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250923_pue_prov.pdf",
+      "publishedDate": "2025-09-23T00:00:00Z",
+      "sizeBytes": 295639,
+      "sha256": "f888cd8b5e628d447cca37ce8a9fc7490a4a66c43aa6e23a9def6a3b62732797",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250919_par.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250919_par.pdf",
+      "publishedDate": "2025-09-19T00:00:00Z",
+      "sizeBytes": 8129860,
+      "sha256": "45ce0745ea1fdcede43da0aa1f85c9b136122ab8b8a2782cfc0bdf14d1be807e",
+      "tipus": "par"
+    },
+    {
+      "filename": "250919_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250919_pue_prov.pdf",
+      "publishedDate": "2025-09-19T00:00:00Z",
+      "sizeBytes": 144729,
+      "sha256": "e3e51312ae07b8ebd23f6e192f6924effaa0f9df5ed8cc92215ec37a0ec28871",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250918_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250918_lis_mae.pdf",
+      "publishedDate": "2025-09-18T00:00:00Z",
+      "sizeBytes": 2263685,
+      "sha256": "a66285dbc9daf418e5fd38e9d8ce200087acf5232f1fecb5afa297eb5c0477f0",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250918_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250918_lis_sec.pdf",
+      "publishedDate": "2025-09-18T00:00:00Z",
+      "sizeBytes": 3245606,
+      "sha256": "b7316cff82715a1fcafe8a91bf0e73fd3ad5cdefec54c569c98e088b63c29fe1",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "250918_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250918_pue_prov.pdf",
+      "publishedDate": "2025-09-18T00:00:00Z",
+      "sizeBytes": 497987,
+      "sha256": "6f6ce88892601a1aec90ce1d9fb1f099473f10364ba27735faa4adfbecdee479",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250916_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250916_lis_mae.pdf",
+      "publishedDate": "2025-09-16T00:00:00Z",
+      "sizeBytes": 2412132,
+      "sha256": "6277d7bf74f27ac377540618eea3d9c0894c3aa513f5e01e32496648c24b3494",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250916_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250916_lis_sec.pdf",
+      "publishedDate": "2025-09-16T00:00:00Z",
+      "sizeBytes": 3744772,
+      "sha256": "d6f860e417a6b543071f131fcb63b1bb1fdfeda172858a454bdcb6071cb1f300",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "250916_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250916_pue_prov.pdf",
+      "publishedDate": "2025-09-16T00:00:00Z",
+      "sizeBytes": 705754,
+      "sha256": "1d582c06d1dbdd82f30c69d354999c25afa7bef98a7947082b92e495d1b0ad88",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250912_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250912_lis_mae.pdf",
+      "publishedDate": "2025-09-12T00:00:00Z",
+      "sizeBytes": 2241273,
+      "sha256": "83bebe78db2299b2b0e9d7da0f61e13add94c70293e88f2c8a545bde22a835a3",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250912_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250912_pue_prov.pdf",
+      "publishedDate": "2025-09-12T00:00:00Z",
+      "sizeBytes": 48852,
+      "sha256": "552d5b761346680dd9ce8a66f75400ef385360cc96ee72c406c9648d7e21358f",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250911_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250911_lis_mae.pdf",
+      "publishedDate": "2025-09-11T00:00:00Z",
+      "sizeBytes": 2355726,
+      "sha256": "e005603ba4e9a5557797227e5a904ff9a0093a164aca7f4b2b098c3103943ec6",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250911_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250911_lis_sec.pdf",
+      "publishedDate": "2025-09-11T00:00:00Z",
+      "sizeBytes": 3211029,
+      "sha256": "4308cc40674d8ced6b74ca5729e3644294cf578ed399315cf2d9136a60c2196e",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "250911_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250911_pue_prov.pdf",
+      "publishedDate": "2025-09-11T00:00:00Z",
+      "sizeBytes": 330389,
+      "sha256": "54ffc01f0056619e12acaf930685d3ca4bad40554e7e562a74436fb7c17eb225",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250909_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250909_lis_mae.pdf",
+      "publishedDate": "2025-09-09T00:00:00Z",
+      "sizeBytes": 2862229,
+      "sha256": "6084de963c203df877f07827a37c7420a7454ef371c342caf823c66aebfc84c3",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250909_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250909_lis_sec.pdf",
+      "publishedDate": "2025-09-09T00:00:00Z",
+      "sizeBytes": 4138381,
+      "sha256": "80e4406bb9b3a6d86aaccff339faa7f7129a96e6f8e52c98fdc98fee7095e46d",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "250909_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250909_pue_prov.pdf",
+      "publishedDate": "2025-09-09T00:00:00Z",
+      "sizeBytes": 800176,
+      "sha256": "4c0a0b1bbca68360864685a971a923b87c5420ae5d0681547799079d3aa75cb8",
+      "tipus": "pue_prov"
+    },
+    {
+      "filename": "250903_bolsa_mae.pdf",
+      "downloadURL": "https://github.com/sergiomendozaibiza/opomaster-gva-data/releases/download/2025-2026/250903_bolsa_mae.pdf",
+      "publishedDate": "2025-09-03T00:00:00Z",
+      "sizeBytes": 5234112,
+      "sha256": null,
+      "tipus": "bolsa_inici"
+    },
+    {
+      "filename": "250903_bolsa_sec.pdf",
+      "downloadURL": "https://github.com/sergiomendozaibiza/opomaster-gva-data/releases/download/2025-2026/250903_bolsa_sec.pdf",
+      "publishedDate": "2025-09-03T00:00:00Z",
+      "sizeBytes": 8321445,
+      "sha256": null,
+      "tipus": "bolsa_inici"
+    },
+    {
+      "filename": "250903_lis_mae.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250903_lis_mae.pdf",
+      "publishedDate": "2025-09-03T00:00:00Z",
+      "sizeBytes": 2815838,
+      "sha256": "ecae00b77b0d2e169964470ce1e65a3de9e4fc27c67e1baa16637d9eb0349b4b",
+      "tipus": "lis_mae"
+    },
+    {
+      "filename": "250903_lis_sec.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250903_lis_sec.pdf",
+      "publishedDate": "2025-09-03T00:00:00Z",
+      "sizeBytes": 4001702,
+      "sha256": "9fde5a003403aea08cf351bc86d66026f98fe69b5540212beae37e055125bb20",
+      "tipus": "lis_sec"
+    },
+    {
+      "filename": "250903_pue_prov.pdf",
+      "downloadURL": "https://github.com/sergimendozaibiza/gva-bot-server/releases/download/2025-2026/250903_pue_prov.pdf",
+      "publishedDate": "2025-09-03T00:00:00Z",
+      "sizeBytes": 479336,
+      "sha256": "373336558019e560308f50bfce92d12533352235a618e9bda652592951c7905a",
+      "tipus": "pue_prov"
+    }
+  ]
+}
