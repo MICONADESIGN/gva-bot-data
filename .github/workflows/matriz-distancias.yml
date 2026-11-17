@@ -1,0 +1,107 @@
+name: Matriz de distancias
+
+# Calcula distancias y tiempos por carretera entre los 542 municipios de la
+# Comunitat Valenciana y todos los centros docentes del registro oficial.
+# Todo es gratuito: repositorio público + runner estándar + software libre (OSRM, osmium).
+on:
+  workflow_dispatch:
+  push:
+    branches: [matriz-distancias]
+    paths:
+      - 'matriz/construir.py'
+      - 'matriz/lanzar.txt'
+      - '.github/workflows/matriz-distancias.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: matriz-distancias
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      IMG: ghcr.io/project-osrm/osrm-backend:latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar osmium-tool
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq osmium-tool
+          osmium --version | head -1
+
+      - name: Descargar extractos de OpenStreetMap (Geofabrik)
+        run: |
+          mkdir -p work && cd work
+          for r in valencia aragon castilla-la-mancha murcia; do
+            curl -fSL --retry 5 --retry-delay 15 -o "$r-latest.osm.pbf" "https://download.geofabrik.de/europe/spain/$r-latest.osm.pbf"
+            curl -fSL --retry 5 --retry-delay 15 -o "$r-latest.osm.pbf.md5" "https://download.geofabrik.de/europe/spain/$r-latest.osm.pbf.md5"
+            md5sum -c "$r-latest.osm.pbf.md5"
+            osmium fileinfo -g header.option.osmosis_replication_timestamp "$r-latest.osm.pbf" | tee "$r.ts" || true
+          done
+          ls -la
+
+      - name: Fusionar extractos
+        run: |
+          cd work
+          osmium merge valencia-latest.osm.pbf aragon-latest.osm.pbf castilla-la-mancha-latest.osm.pbf murcia-latest.osm.pbf -o merged.osm.pbf
+          ls -la merged.osm.pbf
+
+      - name: Preparar red de carreteras (OSRM extract, partition, customize)
+        run: |
+          docker pull "$IMG"
+          cd work
+          docker run --rm -v "$PWD:/data" "$IMG" osrm-extract -p /opt/car.lua /data/merged.osm.pbf
+          docker run --rm -v "$PWD:/data" "$IMG" osrm-partition /data/merged.osrm
+          docker run --rm -v "$PWD:/data" "$IMG" osrm-customize /data/merged.osrm
+          ls -la merged.osrm* | head -30
+
+      - name: Arrancar servidor OSRM
+        run: |
+          docker run -d --name osrm -p 5000:5000 -v "$PWD/work:/data" "$IMG" osrm-routed --algorithm mld --max-table-size 100000 /data/merged.osrm
+          for i in $(seq 1 60); do
+            if curl -fs "http://localhost:5000/route/v1/driving/-0.3763,39.4699;-0.4810,38.3452?overview=false" > /dev/null; then echo "OSRM listo"; break; fi
+            sleep 2
+          done
+          curl -fs "http://localhost:5000/route/v1/driving/-0.3763,39.4699;-0.4810,38.3452?overview=false" | head -c 300; echo
+
+      - name: Metadatos del entorno
+        run: |
+          python3 - <<'EOF'
+          import json, subprocess, os
+          def sh(c):
+              return subprocess.run(c, shell=True, capture_output=True, text=True).stdout.strip()
+          regiones = ["valencia", "aragon", "castilla-la-mancha", "murcia"]
+          meta = {
+              "osrm_imagen": os.environ["IMG"],
+              "osrm_digest": sh("docker image inspect --format '{{index .RepoDigests 0}}' $IMG"),
+              "osrm_version": sh("docker run --rm $IMG osrm-routed --version 2>&1 | head -1"),
+              "perfil": "car.lua (incluido en la imagen de OSRM)",
+              "osmium": sh("osmium --version | head -1"),
+              "geofabrik": {r: {"replication_timestamp": sh("cat work/%s.ts" % r),
+                                "md5": sh("cut -d' ' -f1 work/%s-latest.osm.pbf.md5" % r)} for r in regiones},
+              "github": {"run_id": os.environ.get("GITHUB_RUN_ID"), "sha": os.environ.get("GITHUB_SHA"),
+                         "repo": os.environ.get("GITHUB_REPOSITORY")},
+          }
+          json.dump(meta, open("work/meta.json", "w"), indent=1)
+          print(json.dumps(meta, indent=1))
+          EOF
+
+      - name: Calcular matriz
+        run: python3 matriz/construir.py --osrm http://localhost:5000 --out matriz/salida --work work
+
+      - name: Registro de OSRM (solo si algo falla)
+        if: failure()
+        run: docker logs osrm 2>&1 | tail -60 || true
+
+      - name: Guardar resultado en la rama
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add matriz/salida
+          git commit -m "Matriz de distancias generada por Actions (run ${GITHUB_RUN_ID})" || echo "sin cambios"
+          git push
