@@ -1,0 +1,1 @@
+pipeline lanzado desde la rama matriz-distancias; ver .github/workflows
