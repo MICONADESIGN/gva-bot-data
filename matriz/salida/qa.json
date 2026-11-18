@@ -1,0 +1,157 @@
+{
+ "pares_totales": 2079654,
+ "pares_sin_ruta": 0,
+ "pct_sin_ruta": 0.0,
+ "ratio_carretera_aire": {
+  "n": 39863,
+  "p5": 1.1734863904203627,
+  "mediana": 1.3657131109967304,
+  "p95": 1.7454129030067795,
+  "min": 1.0480726199513246,
+  "max": 5.095012510344579
+ },
+ "pares_anomalos_ratio_fuera_0.9_4": [
+  [
+   "Castell de Cabres",
+   "12006411",
+   "Rossell",
+   16.3,
+   83.2
+  ],
+  [
+   "Benimarfull",
+   "46007773",
+   "Salem",
+   8.1,
+   34.4
+  ],
+  [
+   "Adsubia",
+   "46013979",
+   "Vilallonga/Villalonga",
+   6.1,
+   26.8
+  ],
+  [
+   "Benifato",
+   "03008496",
+   "Sella",
+   8.1,
+   35.6
+  ],
+  [
+   "Chert",
+   "12002154",
+   "La Pobla de Benifassà",
+   15.3,
+   63.8
+  ],
+  [
+   "Segart",
+   "46036189",
+   "Olocau",
+   13.6,
+   58.5
+  ]
+ ],
+ "n_anomalos": 6,
+ "velocidad_media_kmh": {
+  "p5": 53.518716577540104,
+  "mediana": 78.10169491525424,
+  "p95": 88.53307766059444
+ },
+ "ajuste_a_carretera_m": {
+  "origenes_p95": 43.2196982,
+  "origenes_max": 1406.371473,
+  "centros_p95": 36.67809407,
+  "centros_max": 143.6071901,
+  "origenes_a_mas_de_2km": [],
+  "centros_a_mas_de_2km": 0
+ },
+ "municipio_wikidata_vs_media_centros_km": {
+  "emparejados": 471,
+  "sin_emparejar": 71,
+  "mediana": 0.2169254812162397,
+  "p95": 1.2670449923865517,
+  "max": 6.542260842166452,
+  "peores": [
+   [
+    6.54,
+    "Torreblanca",
+    "12117",
+    5
+   ],
+   [
+    4.24,
+    "Useras",
+    "12122",
+    1
+   ],
+   [
+    3.76,
+    "Chiva",
+    "46111",
+    11
+   ],
+   [
+    3.56,
+    "Sierra Engarcerán",
+    "12105",
+    4
+   ],
+   [
+    3.15,
+    "Cortes de Arenoso",
+    "12048",
+    2
+   ],
+   [
+    2.8,
+    "Sagunto",
+    "46220",
+    46
+   ],
+   [
+    2.65,
+    "Orihuela",
+    "03099",
+    45
+   ],
+   [
+    2.32,
+    "Requena",
+    "46213",
+    20
+   ],
+   [
+    2.24,
+    "Venta del Moro",
+    "46254",
+    2
+   ],
+   [
+    2.21,
+    "La Jana",
+    "12070",
+    2
+   ],
+   [
+    2.21,
+    "Hondón de las Nieves",
+    "03077",
+    3
+   ],
+   [
+    2.19,
+    "Alcalá de Chivert",
+    "12004",
+    7
+   ]
+  ]
+ },
+ "centros_descartados_sin_coordenada": [],
+ "estados": {
+  "A": 3693,
+  "L": 144
+ }
+}

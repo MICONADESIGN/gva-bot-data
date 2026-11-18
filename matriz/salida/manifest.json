@@ -1,0 +1,77 @@
+{
+ "formato": "IAD1",
+ "version": 1,
+ "generado_utc": "2026-11-18T09:55:59Z",
+ "n_origenes": 542,
+ "n_centros": 3837,
+ "unidades": {
+  "distancia_m": 100,
+  "tiempo_s": 10,
+  "sin_ruta": 65535
+ },
+ "fuentes": {
+  "centros": "ICV/GVA WFS 12_Centros_wfs (CC BY)",
+  "municipios": "Wikidata P772+P625 (CC0)",
+  "red_viaria": "© OpenStreetMap contributors (ODbL); extractos de Geofabrik u OpenStreetMap France"
+ },
+ "entorno": {
+  "osrm_imagen": "ghcr.io/project-osrm/osrm-backend:latest",
+  "osrm_digest": "ghcr.io/project-osrm/osrm-backend@sha256:e1929ae2818226284d7ef007329098a30851c11528ab3712bc9c8d68da78278b",
+  "osrm_version": "v26.11.0",
+  "perfil": "car.lua (incluido en la imagen de OSRM)",
+  "osmium": "osmium version 1.19.0",
+  "extractos_osm": {
+   "valencia": {
+    "origen": "geofabrik",
+    "replication_timestamp": "2026-11-17T21:24:30Z",
+    "md5": "f5f7e763b31e803a4d426fbd0aea1e75"
+   },
+   "aragon": {
+    "origen": "geofabrik",
+    "replication_timestamp": "2026-11-17T21:24:30Z",
+    "md5": "4b1c4b3759b2bb1b8ac4298cd7a34d00"
+   },
+   "castilla-la-mancha": {
+    "origen": "geofabrik",
+    "replication_timestamp": "2026-11-17T21:24:30Z",
+    "md5": "96c32f4db76fdb810e06a3ac58070714"
+   },
+   "murcia": {
+    "origen": "geofabrik",
+    "replication_timestamp": "2026-11-17T21:24:30Z",
+    "md5": "c68379ba5f3d56e42c287aaf47b263fe"
+   }
+  },
+  "github": {
+   "run_id": "44278981364",
+   "sha": "bb5cca562b01c28b04a41c0e192f3fdb92df3e86",
+   "repo": "MICONADESIGN/gva-bot-data"
+  }
+ },
+ "ficheros": {
+  "matriz_v1.bin": {
+   "bytes": 8318624,
+   "sha256": "1bdf87c80218ddff0378b1689b147a736bd1cdfacb34c037c1ce68d80ad1deda"
+  },
+  "origenes.json": {
+   "bytes": 45333,
+   "sha256": "bc0fc3b50527b00c66c565a90cb45490dbff316df06675ff16a59706622078b8"
+  },
+  "centros.json": {
+   "bytes": 117845,
+   "sha256": "449133ea1d5bd5931b6c5ce2bfa7145fa0ded8885098bbc847810a8d6f1c1d68"
+  },
+  "qa.json": {
+   "bytes": 2103,
+   "sha256": "4c5450455a7072623bffe901bd8a26ca41332234ff9814f5b2daf87127291745"
+  },
+  "muestra_validacion.csv": {
+   "bytes": 12086,
+   "sha256": "245328ce286b17014e71cdc54478ae07c1d5e7a75753020f206aa73047688a9e"
+  },
+  "LEEME.md": {
+   "bytes": 1044,
+   "sha256": "5e9f9ffd7ecf5e0a8d564a1be437d93fe675d44983e18b93a3a85d6fc2b6d317"
+  }
+ }
+}
