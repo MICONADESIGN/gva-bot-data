@@ -67,13 +67,18 @@ jobs:
           aragon|aragon|aragon
           castilla-la-mancha|castilla-la-mancha|castilla_la_mancha
           murcia|murcia|region_de_murcia
+          cataluna|cataluna|catalunya
           EOT
+          # Cataluña: solo hace falta el entorno de la frontera norte de Castellon (la CV-105 a La Pobla de
+          # Benifassa pasa por La Senia); recorte con caminos completos para no cortar carreteras.
+          osmium extract --bbox=-0.2,40.3,1.6,41.4 --strategy=complete_ways cataluna-latest.osm.pbf -o cataluna-recorte.osm.pbf
+          rm -f cataluna-latest.osm.pbf
           ls -la
 
       - name: Fusionar extractos
         run: |
           cd work
-          osmium merge valencia-latest.osm.pbf aragon-latest.osm.pbf castilla-la-mancha-latest.osm.pbf murcia-latest.osm.pbf -o merged.osm.pbf
+          osmium merge valencia-latest.osm.pbf aragon-latest.osm.pbf castilla-la-mancha-latest.osm.pbf murcia-latest.osm.pbf cataluna-recorte.osm.pbf -o merged.osm.pbf
           ls -la merged.osm.pbf
 
       - name: Preparar red de carreteras (OSRM extract, partition, customize)
@@ -100,7 +105,7 @@ jobs:
           import json, subprocess, os
           def sh(c):
               return subprocess.run(c, shell=True, capture_output=True, text=True).stdout.strip()
-          regiones = ["valencia", "aragon", "castilla-la-mancha", "murcia"]
+          regiones = ["valencia", "aragon", "castilla-la-mancha", "murcia", "cataluna"]
           meta = {
               "osrm_imagen": os.environ["IMG"],
               "osrm_digest": sh("docker image inspect --format '{{index .RepoDigests 0}}' $IMG"),
@@ -110,6 +115,7 @@ jobs:
               "extractos_osm": {r: {"origen": sh("cat work/%s.src" % r),
                                     "replication_timestamp": sh("cat work/%s.ts" % r),
                                     "md5": sh("cut -d' ' -f1 work/%s-latest.osm.pbf.md5" % r)} for r in regiones},
+              "recorte_cataluna_bbox": "-0.2,40.3,1.6,41.4 (osmium extract, complete_ways)",
               "github": {"run_id": os.environ.get("GITHUB_RUN_ID"), "sha": os.environ.get("GITHUB_SHA"),
                          "repo": os.environ.get("GITHUB_REPOSITORY")},
           }
