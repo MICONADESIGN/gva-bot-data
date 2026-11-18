@@ -1,6 +1,6 @@
 # Matriz de distancias por carretera — Interí al Dia
 
-Generada automáticamente (2026-11-18T09:55:59Z).
+Generada automáticamente (2026-11-18T10:10:31Z).
 
 - Filas: 542 municipios de la Comunitat Valenciana (orígenes, `origenes.json`).
 - Columnas: 3837 centros docentes del registro oficial, incluidos aularios (`centros.json`).
