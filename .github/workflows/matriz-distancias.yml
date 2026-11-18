@@ -34,15 +34,40 @@ jobs:
           sudo apt-get install -y -qq osmium-tool
           osmium --version | head -1
 
-      - name: Descargar extractos de OpenStreetMap (Geofabrik)
+      - name: Descargar extractos de OpenStreetMap (Geofabrik; respaldo OpenStreetMap France)
         run: |
           mkdir -p work && cd work
-          for r in valencia aragon castilla-la-mancha murcia; do
-            curl -fSL --retry 5 --retry-delay 15 -o "$r-latest.osm.pbf" "https://download.geofabrik.de/europe/spain/$r-latest.osm.pbf"
-            curl -fSL --retry 5 --retry-delay 15 -o "$r-latest.osm.pbf.md5" "https://download.geofabrik.de/europe/spain/$r-latest.osm.pbf.md5"
-            md5sum -c "$r-latest.osm.pbf.md5"
+          # nombre local | ruta en Geofabrik | ruta en OpenStreetMap France (misma extension regional)
+          while IFS='|' read -r r gf fr; do
+            ok=0
+            for origen in geofabrik osmfr; do
+              if [ "$origen" = geofabrik ]; then
+                base="https://download.geofabrik.de/europe/spain/$gf"
+                pbf="$base-latest.osm.pbf"; md5="$base-latest.osm.pbf.md5"
+              else
+                base="https://download.openstreetmap.fr/extracts/europe/spain/$fr"
+                pbf="$base.osm.pbf"; md5="$base.osm.pbf.md5"
+              fi
+              echo "== $r desde $origen"
+              if curl -fSL --connect-timeout 30 --retry 4 --retry-all-errors --retry-delay 15 -o "$r-latest.osm.pbf" "$pbf" \
+                 && curl -fSL --connect-timeout 30 --retry 4 --retry-all-errors --retry-delay 15 -o "$r-latest.osm.pbf.md5" "$md5"; then
+                esperado=$(cut -d' ' -f1 "$r-latest.osm.pbf.md5")
+                obtenido=$(md5sum "$r-latest.osm.pbf" | cut -d' ' -f1)
+                if [ "$esperado" = "$obtenido" ] && [ -n "$esperado" ]; then
+                  echo "$origen" > "$r.src"; ok=1; break
+                else
+                  echo "md5 NO coincide desde $origen (esperado $esperado, obtenido $obtenido)"
+                fi
+              fi
+            done
+            [ "$ok" = 1 ] || { echo "No se pudo descargar $r desde ningun origen"; exit 1; }
             osmium fileinfo -g header.option.osmosis_replication_timestamp "$r-latest.osm.pbf" | tee "$r.ts" || true
-          done
+          done <<'EOT'
+          valencia|valencia|comunitat_valenciana
+          aragon|aragon|aragon
+          castilla-la-mancha|castilla-la-mancha|castilla_la_mancha
+          murcia|murcia|region_de_murcia
+          EOT
           ls -la
 
       - name: Fusionar extractos
@@ -82,8 +107,9 @@ jobs:
               "osrm_version": sh("docker run --rm $IMG osrm-routed --version 2>&1 | head -1"),
               "perfil": "car.lua (incluido en la imagen de OSRM)",
               "osmium": sh("osmium --version | head -1"),
-              "geofabrik": {r: {"replication_timestamp": sh("cat work/%s.ts" % r),
-                                "md5": sh("cut -d' ' -f1 work/%s-latest.osm.pbf.md5" % r)} for r in regiones},
+              "extractos_osm": {r: {"origen": sh("cat work/%s.src" % r),
+                                    "replication_timestamp": sh("cat work/%s.ts" % r),
+                                    "md5": sh("cut -d' ' -f1 work/%s-latest.osm.pbf.md5" % r)} for r in regiones},
               "github": {"run_id": os.environ.get("GITHUB_RUN_ID"), "sha": os.environ.get("GITHUB_SHA"),
                          "repo": os.environ.get("GITHUB_REPOSITORY")},
           }
