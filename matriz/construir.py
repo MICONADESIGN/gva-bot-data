@@ -7,7 +7,7 @@ de la Comunitat Valenciana (orígenes) y todos los centros docentes del registro
 Entradas (todas abiertas y gratuitas):
   - Centros: WFS oficial del ICV (terramapas.icv.gva.es, CC BY), incluye aularios.
   - Municipios: Wikidata (CC0), código INE (P772) + coordenadas (P625).
-  - Red viaria: extractos de OpenStreetMap de Geofabrik (ODbL), preparados por el workflow.
+  - Red viaria: extractos regionales de OpenStreetMap (ODbL) de Geofabrik u OpenStreetMap France, preparados por el workflow.
 
 Salida (carpeta --out):
   matriz_v1.bin, origenes.json, centros.json, manifest.json, qa.json,
@@ -341,7 +341,7 @@ Generada automáticamente ({meta['generado_utc']}).
 ## Fuentes y licencias
 - Centros docentes: Institut Cartogràfic Valencià / Generalitat Valenciana (CC BY).
 - Municipios (código INE y coordenadas): Wikidata (CC0).
-- Red viaria: © colaboradores de OpenStreetMap (ODbL), extractos de Geofabrik.
+- Red viaria: © colaboradores de OpenStreetMap (ODbL); extractos regionales de Geofabrik u OpenStreetMap France (ver manifest.json → entorno.extractos_osm).
 """
     with open(os.path.join(out, "LEEME.md"), "w", encoding="utf-8") as f:
         f.write(leeme)
@@ -390,7 +390,7 @@ def main():
             "n_origenes": len(origenes), "n_centros": len(centros),
             "unidades": {"distancia_m": int(U_DIST), "tiempo_s": int(U_TIEMPO), "sin_ruta": SIN_RUTA},
             "fuentes": {"centros": "ICV/GVA WFS 12_Centros_wfs (CC BY)", "municipios": "Wikidata P772+P625 (CC0)",
-                        "red_viaria": "© OpenStreetMap contributors (ODbL) via Geofabrik"}}
+                        "red_viaria": "© OpenStreetMap contributors (ODbL); extractos de Geofabrik u OpenStreetMap France"}}
     p_meta = os.path.join(a.work, "meta.json")
     if os.path.exists(p_meta):
         meta["entorno"] = json.load(open(p_meta, encoding="utf-8"))
